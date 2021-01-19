@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.1.0](https://github.com/brettdh/standard-version-expo/compare/1.0.3...1.1.0) (2021-01-19)
+
+
+### New features
+
+* add native version bumpers ([4005ed7](https://github.com/brettdh/standard-version-expo/commit/4005ed7b92e2a84868b21098fea96268ca9e07fa)), closes [#9](https://github.com/brettdh/standard-version-expo/issues/9)
+
 ### [1.0.3](https://github.com/expo-community/standard-version-expo/compare/1.0.2...1.0.3) (2020-04-19)
 
 

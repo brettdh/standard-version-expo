@@ -72,19 +72,19 @@ module.exports = [
   // ...
   {
     filename: 'ios/<YourAppName>/Info.plist',
-    updater: require.resolve('standard-version-expo/ios/native/app-version'),
+    updater: require.resolve('@brettdh/standard-version-expo/ios/native/app-version'),
   },
   {
     filename: 'ios/<YourAppName>/Info.plist',
-    updater: require.resolve('standard-version-expo/ios/native/buildnum/increment'),
+    updater: require.resolve('@brettdh/standard-version-expo/ios/native/buildnum/increment'),
   },
   {
     filename: 'android/app/build.gradle',
-    updater: require.resolve('standard-version-expo/android/native/app-version'),
+    updater: require.resolve('@brettdh/standard-version-expo/android/native/app-version'),
   },
   {
     filename: 'android/app/build.gradle',
-    updater: require.resolve('standard-version-expo/android/native/buildnum/code')(sdkVersion),
+    updater: require('@brettdh/standard-version-expo/android/native/buildnum/code')(sdkVersion),
   },
 ];
 ```
